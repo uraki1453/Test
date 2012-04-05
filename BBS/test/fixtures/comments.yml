@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  massage: MyText
+  submitter: MyString
+  address: MyString
+  password: MyString
+
+two:
+  title: MyString
+  massage: MyText
+  submitter: MyString
+  address: MyString
+  password: MyString

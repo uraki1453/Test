@@ -1,0 +1,32 @@
+<div id="header">
+	<h1>掲示板</h1>
+</div>
+<script type="test/javascript">
+	time();
+</script>
+
+<div class="board">
+	<ul class="board">
+		<% @comments.each do |cmt| %>
+		<div id="massage">
+			<li>
+				<div><%= cmt.title %></div>
+			</li>		
+			<li>	
+				<div>名前　<%= cmt.submitter %></div> 
+			</li>
+			<li>
+				<div>E-Mail <%= cmt.address %></div>
+			</li>
+			<li>
+				<div>投稿時間　<%= cmt.created_at %></div>
+			</li>
+			<li id="cmt">
+				<div><%=cmt.massage %></div>
+			</li>
+		</div>
+	<% end %>	
+	</ul>		
+</div>
+
+

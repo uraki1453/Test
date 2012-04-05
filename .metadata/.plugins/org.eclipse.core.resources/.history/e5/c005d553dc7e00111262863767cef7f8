@@ -1,0 +1,3 @@
+BBS::Application.routes.draw do
+  resources :commnets
+end

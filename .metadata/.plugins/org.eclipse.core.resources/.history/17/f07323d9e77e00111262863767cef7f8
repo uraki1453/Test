@@ -1,0 +1,9 @@
+bbsのテーブルどうしよう
+
+comments
+	titile:string
+	message:text
+	
+	password:string
+	
+

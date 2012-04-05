@@ -1,0 +1,21 @@
+<div id="header">
+	<h1>掲示板</h1>
+</div>
+
+<div class="board">
+	<ul class="board">
+		<% @comments.each do |cmt| %>
+		<li>
+			<div><%= cmt.title %></div>
+		</li>
+		<li>
+			<div>名前　<%= cmt.submitter %> E-Mail<%= cmt.address %></div>
+		</li>
+		<li>
+			<div><%=cmt.massage %></div>
+		</li>
+	<% end %>	
+	</ul>		
+</div>
+
+

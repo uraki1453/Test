@@ -1,0 +1,9 @@
+class CommentsController < ApplicationController
+  def index
+    @comments=Comment
+  end
+  
+  def show
+    
+  end
+end
