@@ -1,4 +1,0 @@
-BBS::Application.routes.draw do
-  #root :do => "comments#index"
-  resources   :comments
-end
